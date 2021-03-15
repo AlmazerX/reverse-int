@@ -1,12 +1,12 @@
 module.exports = function reverse (n) {
 
 return (
-    parseInt(
+    parseFloat(
       n
         .toString()
         .split('')
         .reverse()
         .join('')
-    ) * Math.sign(n)
+    ) 
   )
 }
